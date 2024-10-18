@@ -1,0 +1,16 @@
+/** 
+ * @author wty 
+ * @describe MapFactory_SDResult_Struct  
+ * @date 2024-08-22 21:20:54 
+*/ 
+namespace ns_MapFactory_SDResult_Struct;
+
+
+table MapFactory_SDResult_Struct
+{
+    //Common_Header_Struct
+    seq_u32: uint32;
+    origin_highlight_sts:[int32];
+}
+
+root_type MapFactory_SDResult_Struct;
